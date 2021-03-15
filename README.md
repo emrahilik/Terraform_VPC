@@ -37,10 +37,10 @@ Communication with EC2 instances running in the private subnet (EC2 instances do
 
 `2- Modules:`
     Inside modules we have 4 modules,
-    cloudwatch_log_group: This module will create log group for vpc flow logs.
-    iam_policy: It will create policy that we need to attach the role, this policy contains permissions for handling logs.
-    iam_role: It will create role that we need to attach with vpc flow log resource.
-    vpc: It will create vpc with 2 public, private and data subnets.
+    `cloudwatch_log_group:` This module will create log group for vpc flow logs.
+    `iam_policy:`           It will create policy that we need to attach the role, this policy contains permissions for handling logs.
+    `iam_role:`             It will create role that we need to attach with vpc flow log resource.
+    `vpc:`                  It will create vpc with 2 public, private and data subnets.
 
  `3- Network:` 
      Network modules contains 4 files,
