@@ -43,11 +43,14 @@ Communication with EC2 instances running in the private subnet (EC2 instances do
     vpc: It will create vpc with 2 public, private and data subnets.
 
  `3- Network:` 
-     Inside modules we have 4 files,
-     Backend, main, outputs and provider 
+     Network modules contains 4 files,
+     Backend, Main, Outputs and provider 
 
 # How to execute script:
-    > Go to the network module.
-    > terraform init 
-    > terraform plan --var-file="../config/config.tfvars"
-    > terraform apply --var-file=".    config/config.tfvars" 
+    1.  Go to the network module.
+    
+    2.  terraform init 
+   
+    3.  terraform plan --var-file="../config/config.tfvars"   
+    
+    4.  terraform apply --var-file=".    config/config.tfvars"   and pray :))
