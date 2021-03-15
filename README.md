@@ -1,4 +1,4 @@
-## Terraform Module Example
+## Create VPC Configurations using Terraform 
 
 * Module should be developed to use the least amount of lines of code possible and be re-usable to easily create multiple VPCs
 
